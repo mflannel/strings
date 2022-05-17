@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /Users/shirlpat/Desktop/s21_string-/cmake-build-debug/
+cmake_ninja_workdir = /Users/shirlpat/Desktop/STRINGS/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target s21_string
 
@@ -49,113 +49,137 @@ cmake_ninja_workdir = /Users/shirlpat/Desktop/s21_string-/cmake-build-debug/
 
 build cmake_object_order_depends_target_s21_string: phony || CMakeFiles/s21_string.dir
 
-build CMakeFiles/s21_string.dir/src/s21_strcmp.c.o: C_COMPILER__s21_string_Debug /Users/shirlpat/Desktop/s21_string-/src/s21_strcmp.c || cmake_object_order_depends_target_s21_string
+build CMakeFiles/s21_string.dir/src/s21_strcmp.c.o: C_COMPILER__s21_string_Debug /Users/shirlpat/Desktop/STRINGS/src/s21_strcmp.c || cmake_object_order_depends_target_s21_string
   DEP_FILE = CMakeFiles/s21_string.dir/src/s21_strcmp.c.o.d
   FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu11
   OBJECT_DIR = CMakeFiles/s21_string.dir
   OBJECT_FILE_DIR = CMakeFiles/s21_string.dir/src
 
-build CMakeFiles/s21_string.dir/src/s21_strcpy.c.o: C_COMPILER__s21_string_Debug /Users/shirlpat/Desktop/s21_string-/src/s21_strcpy.c || cmake_object_order_depends_target_s21_string
+build CMakeFiles/s21_string.dir/src/s21_strcpy.c.o: C_COMPILER__s21_string_Debug /Users/shirlpat/Desktop/STRINGS/src/s21_strcpy.c || cmake_object_order_depends_target_s21_string
   DEP_FILE = CMakeFiles/s21_string.dir/src/s21_strcpy.c.o.d
   FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu11
   OBJECT_DIR = CMakeFiles/s21_string.dir
   OBJECT_FILE_DIR = CMakeFiles/s21_string.dir/src
 
-build CMakeFiles/s21_string.dir/src/s21_strncmp.c.o: C_COMPILER__s21_string_Debug /Users/shirlpat/Desktop/s21_string-/src/s21_strncmp.c || cmake_object_order_depends_target_s21_string
+build CMakeFiles/s21_string.dir/src/s21_strncmp.c.o: C_COMPILER__s21_string_Debug /Users/shirlpat/Desktop/STRINGS/src/s21_strncmp.c || cmake_object_order_depends_target_s21_string
   DEP_FILE = CMakeFiles/s21_string.dir/src/s21_strncmp.c.o.d
   FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu11
   OBJECT_DIR = CMakeFiles/s21_string.dir
   OBJECT_FILE_DIR = CMakeFiles/s21_string.dir/src
 
-build CMakeFiles/s21_string.dir/src/s21_strncpy.c.o: C_COMPILER__s21_string_Debug /Users/shirlpat/Desktop/s21_string-/src/s21_strncpy.c || cmake_object_order_depends_target_s21_string
+build CMakeFiles/s21_string.dir/src/s21_strncpy.c.o: C_COMPILER__s21_string_Debug /Users/shirlpat/Desktop/STRINGS/src/s21_strncpy.c || cmake_object_order_depends_target_s21_string
   DEP_FILE = CMakeFiles/s21_string.dir/src/s21_strncpy.c.o.d
   FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu11
   OBJECT_DIR = CMakeFiles/s21_string.dir
   OBJECT_FILE_DIR = CMakeFiles/s21_string.dir/src
 
-build CMakeFiles/s21_string.dir/src/s21_strlen.c.o: C_COMPILER__s21_string_Debug /Users/shirlpat/Desktop/s21_string-/src/s21_strlen.c || cmake_object_order_depends_target_s21_string
+build CMakeFiles/s21_string.dir/src/s21_strlen.c.o: C_COMPILER__s21_string_Debug /Users/shirlpat/Desktop/STRINGS/src/s21_strlen.c || cmake_object_order_depends_target_s21_string
   DEP_FILE = CMakeFiles/s21_string.dir/src/s21_strlen.c.o.d
   FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu11
   OBJECT_DIR = CMakeFiles/s21_string.dir
   OBJECT_FILE_DIR = CMakeFiles/s21_string.dir/src
 
-build CMakeFiles/s21_string.dir/src/helpers/helpers.c.o: C_COMPILER__s21_string_Debug /Users/shirlpat/Desktop/s21_string-/src/helpers/helpers.c || cmake_object_order_depends_target_s21_string
+build CMakeFiles/s21_string.dir/src/helpers/helpers.c.o: C_COMPILER__s21_string_Debug /Users/shirlpat/Desktop/STRINGS/src/helpers/helpers.c || cmake_object_order_depends_target_s21_string
   DEP_FILE = CMakeFiles/s21_string.dir/src/helpers/helpers.c.o.d
   FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu11
   OBJECT_DIR = CMakeFiles/s21_string.dir
   OBJECT_FILE_DIR = CMakeFiles/s21_string.dir/src/helpers
 
-build CMakeFiles/s21_string.dir/src/main.c.o: C_COMPILER__s21_string_Debug /Users/shirlpat/Desktop/s21_string-/src/main.c || cmake_object_order_depends_target_s21_string
+build CMakeFiles/s21_string.dir/src/main.c.o: C_COMPILER__s21_string_Debug /Users/shirlpat/Desktop/STRINGS/src/main.c || cmake_object_order_depends_target_s21_string
   DEP_FILE = CMakeFiles/s21_string.dir/src/main.c.o.d
   FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu11
   OBJECT_DIR = CMakeFiles/s21_string.dir
   OBJECT_FILE_DIR = CMakeFiles/s21_string.dir/src
 
-build CMakeFiles/s21_string.dir/src/s21_memchr.c.o: C_COMPILER__s21_string_Debug /Users/shirlpat/Desktop/s21_string-/src/s21_memchr.c || cmake_object_order_depends_target_s21_string
+build CMakeFiles/s21_string.dir/src/s21_memchr.c.o: C_COMPILER__s21_string_Debug /Users/shirlpat/Desktop/STRINGS/src/s21_memchr.c || cmake_object_order_depends_target_s21_string
   DEP_FILE = CMakeFiles/s21_string.dir/src/s21_memchr.c.o.d
   FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu11
   OBJECT_DIR = CMakeFiles/s21_string.dir
   OBJECT_FILE_DIR = CMakeFiles/s21_string.dir/src
 
-build CMakeFiles/s21_string.dir/src/s21_memcmp.c.o: C_COMPILER__s21_string_Debug /Users/shirlpat/Desktop/s21_string-/src/s21_memcmp.c || cmake_object_order_depends_target_s21_string
+build CMakeFiles/s21_string.dir/src/s21_memcmp.c.o: C_COMPILER__s21_string_Debug /Users/shirlpat/Desktop/STRINGS/src/s21_memcmp.c || cmake_object_order_depends_target_s21_string
   DEP_FILE = CMakeFiles/s21_string.dir/src/s21_memcmp.c.o.d
   FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu11
   OBJECT_DIR = CMakeFiles/s21_string.dir
   OBJECT_FILE_DIR = CMakeFiles/s21_string.dir/src
 
-build CMakeFiles/s21_string.dir/src/s21_memcpy.c.o: C_COMPILER__s21_string_Debug /Users/shirlpat/Desktop/s21_string-/src/s21_memcpy.c || cmake_object_order_depends_target_s21_string
+build CMakeFiles/s21_string.dir/src/s21_memcpy.c.o: C_COMPILER__s21_string_Debug /Users/shirlpat/Desktop/STRINGS/src/s21_memcpy.c || cmake_object_order_depends_target_s21_string
   DEP_FILE = CMakeFiles/s21_string.dir/src/s21_memcpy.c.o.d
   FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu11
   OBJECT_DIR = CMakeFiles/s21_string.dir
   OBJECT_FILE_DIR = CMakeFiles/s21_string.dir/src
 
-build CMakeFiles/s21_string.dir/src/s21_memmove.c.o: C_COMPILER__s21_string_Debug /Users/shirlpat/Desktop/s21_string-/src/s21_memmove.c || cmake_object_order_depends_target_s21_string
+build CMakeFiles/s21_string.dir/src/s21_memmove.c.o: C_COMPILER__s21_string_Debug /Users/shirlpat/Desktop/STRINGS/src/s21_memmove.c || cmake_object_order_depends_target_s21_string
   DEP_FILE = CMakeFiles/s21_string.dir/src/s21_memmove.c.o.d
   FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu11
   OBJECT_DIR = CMakeFiles/s21_string.dir
   OBJECT_FILE_DIR = CMakeFiles/s21_string.dir/src
 
-build CMakeFiles/s21_string.dir/src/s21_sprintf.c.o: C_COMPILER__s21_string_Debug /Users/shirlpat/Desktop/s21_string-/src/s21_sprintf.c || cmake_object_order_depends_target_s21_string
+build CMakeFiles/s21_string.dir/src/s21_sprintf.c.o: C_COMPILER__s21_string_Debug /Users/shirlpat/Desktop/STRINGS/src/s21_sprintf.c || cmake_object_order_depends_target_s21_string
   DEP_FILE = CMakeFiles/s21_string.dir/src/s21_sprintf.c.o.d
   FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu11
   OBJECT_DIR = CMakeFiles/s21_string.dir
   OBJECT_FILE_DIR = CMakeFiles/s21_string.dir/src
 
-build CMakeFiles/s21_string.dir/src/s21_memset.c.o: C_COMPILER__s21_string_Debug /Users/shirlpat/Desktop/s21_string-/src/s21_memset.c || cmake_object_order_depends_target_s21_string
+build CMakeFiles/s21_string.dir/src/s21_memset.c.o: C_COMPILER__s21_string_Debug /Users/shirlpat/Desktop/STRINGS/src/s21_memset.c || cmake_object_order_depends_target_s21_string
   DEP_FILE = CMakeFiles/s21_string.dir/src/s21_memset.c.o.d
   FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu11
   OBJECT_DIR = CMakeFiles/s21_string.dir
   OBJECT_FILE_DIR = CMakeFiles/s21_string.dir/src
 
-build CMakeFiles/s21_string.dir/src/s21_strcat.c.o: C_COMPILER__s21_string_Debug /Users/shirlpat/Desktop/s21_string-/src/s21_strcat.c || cmake_object_order_depends_target_s21_string
+build CMakeFiles/s21_string.dir/src/s21_strcat.c.o: C_COMPILER__s21_string_Debug /Users/shirlpat/Desktop/STRINGS/src/s21_strcat.c || cmake_object_order_depends_target_s21_string
   DEP_FILE = CMakeFiles/s21_string.dir/src/s21_strcat.c.o.d
   FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu11
   OBJECT_DIR = CMakeFiles/s21_string.dir
   OBJECT_FILE_DIR = CMakeFiles/s21_string.dir/src
 
-build CMakeFiles/s21_string.dir/src/s21_strncat.c.o: C_COMPILER__s21_string_Debug /Users/shirlpat/Desktop/s21_string-/src/s21_strncat.c || cmake_object_order_depends_target_s21_string
+build CMakeFiles/s21_string.dir/src/s21_strncat.c.o: C_COMPILER__s21_string_Debug /Users/shirlpat/Desktop/STRINGS/src/s21_strncat.c || cmake_object_order_depends_target_s21_string
   DEP_FILE = CMakeFiles/s21_string.dir/src/s21_strncat.c.o.d
   FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu11
   OBJECT_DIR = CMakeFiles/s21_string.dir
   OBJECT_FILE_DIR = CMakeFiles/s21_string.dir/src
 
-build CMakeFiles/s21_string.dir/src/s21_strchr.c.o: C_COMPILER__s21_string_Debug /Users/shirlpat/Desktop/s21_string-/src/s21_strchr.c || cmake_object_order_depends_target_s21_string
+build CMakeFiles/s21_string.dir/src/s21_strchr.c.o: C_COMPILER__s21_string_Debug /Users/shirlpat/Desktop/STRINGS/src/s21_strchr.c || cmake_object_order_depends_target_s21_string
   DEP_FILE = CMakeFiles/s21_string.dir/src/s21_strchr.c.o.d
   FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu11
   OBJECT_DIR = CMakeFiles/s21_string.dir
   OBJECT_FILE_DIR = CMakeFiles/s21_string.dir/src
 
-build CMakeFiles/s21_string.dir/src/s21_isDigit.c.o: C_COMPILER__s21_string_Debug /Users/shirlpat/Desktop/s21_string-/src/s21_isDigit.c || cmake_object_order_depends_target_s21_string
+build CMakeFiles/s21_string.dir/src/s21_isDigit.c.o: C_COMPILER__s21_string_Debug /Users/shirlpat/Desktop/STRINGS/src/s21_isDigit.c || cmake_object_order_depends_target_s21_string
   DEP_FILE = CMakeFiles/s21_string.dir/src/s21_isDigit.c.o.d
   FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu11
   OBJECT_DIR = CMakeFiles/s21_string.dir
   OBJECT_FILE_DIR = CMakeFiles/s21_string.dir/src
 
-build CMakeFiles/s21_string.dir/src/helpers/helpers_ftoa.c.o: C_COMPILER__s21_string_Debug /Users/shirlpat/Desktop/s21_string-/src/helpers/helpers_ftoa.c || cmake_object_order_depends_target_s21_string
-  DEP_FILE = CMakeFiles/s21_string.dir/src/helpers/helpers_ftoa.c.o.d
+build CMakeFiles/s21_string.dir/src/helpers/floatConvertions.c.o: C_COMPILER__s21_string_Debug /Users/shirlpat/Desktop/STRINGS/src/helpers/floatConvertions.c || cmake_object_order_depends_target_s21_string
+  DEP_FILE = CMakeFiles/s21_string.dir/src/helpers/floatConvertions.c.o.d
   FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu11
   OBJECT_DIR = CMakeFiles/s21_string.dir
   OBJECT_FILE_DIR = CMakeFiles/s21_string.dir/src/helpers
+
+build CMakeFiles/s21_string.dir/src/helpers/doubleConvertions.c.o: C_COMPILER__s21_string_Debug /Users/shirlpat/Desktop/STRINGS/src/helpers/doubleConvertions.c || cmake_object_order_depends_target_s21_string
+  DEP_FILE = CMakeFiles/s21_string.dir/src/helpers/doubleConvertions.c.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu11
+  OBJECT_DIR = CMakeFiles/s21_string.dir
+  OBJECT_FILE_DIR = CMakeFiles/s21_string.dir/src/helpers
+
+build CMakeFiles/s21_string.dir/src/s21_strdup.c.o: C_COMPILER__s21_string_Debug /Users/shirlpat/Desktop/STRINGS/src/s21_strdup.c || cmake_object_order_depends_target_s21_string
+  DEP_FILE = CMakeFiles/s21_string.dir/src/s21_strdup.c.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu11
+  OBJECT_DIR = CMakeFiles/s21_string.dir
+  OBJECT_FILE_DIR = CMakeFiles/s21_string.dir/src
+
+build CMakeFiles/s21_string.dir/src/helpers/buffWriting.c.o: C_COMPILER__s21_string_Debug /Users/shirlpat/Desktop/STRINGS/src/helpers/buffWriting.c || cmake_object_order_depends_target_s21_string
+  DEP_FILE = CMakeFiles/s21_string.dir/src/helpers/buffWriting.c.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu11
+  OBJECT_DIR = CMakeFiles/s21_string.dir
+  OBJECT_FILE_DIR = CMakeFiles/s21_string.dir/src/helpers
+
+build CMakeFiles/s21_string.dir/src/test.c.o: C_COMPILER__s21_string_Debug /Users/shirlpat/Desktop/STRINGS/src/test.c || cmake_object_order_depends_target_s21_string
+  DEP_FILE = CMakeFiles/s21_string.dir/src/test.c.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu11
+  OBJECT_DIR = CMakeFiles/s21_string.dir
+  OBJECT_FILE_DIR = CMakeFiles/s21_string.dir/src
 
 
 # =============================================================================
@@ -165,7 +189,7 @@ build CMakeFiles/s21_string.dir/src/helpers/helpers_ftoa.c.o: C_COMPILER__s21_st
 #############################################
 # Link the executable s21_string
 
-build s21_string: C_EXECUTABLE_LINKER__s21_string_Debug CMakeFiles/s21_string.dir/src/s21_strcmp.c.o CMakeFiles/s21_string.dir/src/s21_strcpy.c.o CMakeFiles/s21_string.dir/src/s21_strncmp.c.o CMakeFiles/s21_string.dir/src/s21_strncpy.c.o CMakeFiles/s21_string.dir/src/s21_strlen.c.o CMakeFiles/s21_string.dir/src/helpers/helpers.c.o CMakeFiles/s21_string.dir/src/main.c.o CMakeFiles/s21_string.dir/src/s21_memchr.c.o CMakeFiles/s21_string.dir/src/s21_memcmp.c.o CMakeFiles/s21_string.dir/src/s21_memcpy.c.o CMakeFiles/s21_string.dir/src/s21_memmove.c.o CMakeFiles/s21_string.dir/src/s21_sprintf.c.o CMakeFiles/s21_string.dir/src/s21_memset.c.o CMakeFiles/s21_string.dir/src/s21_strcat.c.o CMakeFiles/s21_string.dir/src/s21_strncat.c.o CMakeFiles/s21_string.dir/src/s21_strchr.c.o CMakeFiles/s21_string.dir/src/s21_isDigit.c.o CMakeFiles/s21_string.dir/src/helpers/helpers_ftoa.c.o
+build s21_string: C_EXECUTABLE_LINKER__s21_string_Debug CMakeFiles/s21_string.dir/src/s21_strcmp.c.o CMakeFiles/s21_string.dir/src/s21_strcpy.c.o CMakeFiles/s21_string.dir/src/s21_strncmp.c.o CMakeFiles/s21_string.dir/src/s21_strncpy.c.o CMakeFiles/s21_string.dir/src/s21_strlen.c.o CMakeFiles/s21_string.dir/src/helpers/helpers.c.o CMakeFiles/s21_string.dir/src/main.c.o CMakeFiles/s21_string.dir/src/s21_memchr.c.o CMakeFiles/s21_string.dir/src/s21_memcmp.c.o CMakeFiles/s21_string.dir/src/s21_memcpy.c.o CMakeFiles/s21_string.dir/src/s21_memmove.c.o CMakeFiles/s21_string.dir/src/s21_sprintf.c.o CMakeFiles/s21_string.dir/src/s21_memset.c.o CMakeFiles/s21_string.dir/src/s21_strcat.c.o CMakeFiles/s21_string.dir/src/s21_strncat.c.o CMakeFiles/s21_string.dir/src/s21_strchr.c.o CMakeFiles/s21_string.dir/src/s21_isDigit.c.o CMakeFiles/s21_string.dir/src/helpers/floatConvertions.c.o CMakeFiles/s21_string.dir/src/helpers/doubleConvertions.c.o CMakeFiles/s21_string.dir/src/s21_strdup.c.o CMakeFiles/s21_string.dir/src/helpers/buffWriting.c.o CMakeFiles/s21_string.dir/src/test.c.o
   FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6
   OBJECT_DIR = CMakeFiles/s21_string.dir
   POST_BUILD = :
@@ -178,7 +202,7 @@ build s21_string: C_EXECUTABLE_LINKER__s21_string_Debug CMakeFiles/s21_string.di
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/shirlpat/Desktop/s21_string-/cmake-build-debug && /Users/shirlpat/Desktop/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/shirlpat/Desktop/STRINGS/cmake-build-debug && /Users/shirlpat/Desktop/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -189,7 +213,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/shirlpat/Desktop/s21_string-/cmake-build-debug && /Users/shirlpat/Desktop/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/shirlpat/Desktop/s21_string- -B/Users/shirlpat/Desktop/s21_string-/cmake-build-debug
+  COMMAND = cd /Users/shirlpat/Desktop/STRINGS/cmake-build-debug && /Users/shirlpat/Desktop/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/shirlpat/Desktop/STRINGS -B/Users/shirlpat/Desktop/STRINGS/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -205,7 +229,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 
 #############################################
-# Folder: /Users/shirlpat/Desktop/s21_string-/cmake-build-debug
+# Folder: /Users/shirlpat/Desktop/STRINGS/cmake-build-debug
 
 build all: phony s21_string
 

@@ -145,8 +145,8 @@ void helper_writeInBuffer(const char **format, char **str, struct s_format *form
             formatParams->precision = va_arg(vlist, int);
         }
         if (formatParams->length_l) {
-            wchar_t *string = va_arg(vlist, wchar_t *);
-            handleWideString(formatParams, buff, string);
+            wchar_t *stringd = va_arg(vlist, wchar_t *);
+            handleWideString(formatParams, buff, stringd);
             (*format)++;
         } else {
             char *string = va_arg(vlist, char *);
@@ -163,17 +163,17 @@ void helper_writeInBuffer(const char **format, char **str, struct s_format *form
             long int lint = va_arg(vlist, long int);
             if (lint < 0)
                 formatParams->flagPlus = 0;
-            char *temp = helper_ldtoa(lint);
-            writeInt(buff, formatParams, temp);
-            free (temp);
+            char *tempr = helper_ldtoa(lint);
+            writeInt(buff, formatParams, tempr);
+            free (tempr);
             (*format)++;
         } else if (formatParams->length_h) {
-            short int sint = (short) va_arg(vlist, short int);
+            short int sint = va_arg(vlist, int);
             if (sint < 0)
                 formatParams->flagPlus = 0;
-            char *temp = helper_itoa(sint);
-            writeInt(buff, formatParams, temp);
-            free (temp);
+            char *templ = helper_itoa(sint);
+            writeInt(buff, formatParams, templ);
+            free (templ);
             (*format)++;
         } else {
             int intParam = va_arg(vlist, int);
@@ -195,11 +195,15 @@ void helper_writeInBuffer(const char **format, char **str, struct s_format *form
         }
         if (formatParams->isLongDouble) {
             long double floatParam = va_arg(vlist, long double);
-            writeFloat(buff, formatParams, helper_dtoa(floatParam, *formatParams));
+            char *s = helper_dtoa(floatParam, *formatParams);
+            writeFloat(buff, formatParams, s);
+            free(s);
             (*format)++;
         } else {
             double floatParam = va_arg(vlist, double);
-            writeFloat(buff, formatParams, helper_ftoa(floatParam, *formatParams));
+            char *st = helper_ftoa(floatParam, *formatParams);
+            writeFloat(buff, formatParams, st);
+            free(st);
             (*format)++;
         }
     } else if (**format == 'u') {

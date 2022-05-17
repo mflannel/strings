@@ -103,5 +103,4 @@ void handleWideString(struct s_format *formatParams, char *buff, wchar_t *wstr) 
 void writeFloat(char *buff, struct s_format *formatParams, char *string) {
     s21_memcpy(buff, string, s21_strlen(string));
     handleFlags(buff, formatParams);
-    free(string);
 }

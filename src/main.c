@@ -8,29 +8,29 @@ int  main() {
     long int g = 123;
 
 
-    char *buff[10000];
-    char *buff1[10000];
-    char *buff2[10000];
-    char *buff3[10000];
-    char *buff4[10000];
-    char *buff5[10000];
-    char *buff6[10000];
-    char *buff7[10000];
-    char *buff8[10000];
-    char *buff9[10000];
-    char *buff10[10000];
-    char *buff11[10000];
-    char *buff12[10000];
-    char *buff13[10000];
-    char *buff14[10000];
-    char *buff15[10000];
-    char *buff16[10000];
-    char *buff17[10000];
-    char *buff18[10000];
-    char *buff19[10000];
-    char *buff20[10000];
-    char *buff21[10000];
-    char *buff22[10000];
+    char buff[10000];
+    char buff1[10000];
+    char buff2[10000];
+    char buff3[10000];
+    char buff4[10000];
+    char buff5[10000];
+    char buff6[10000];
+    char buff7[10000];
+    char buff8[10000];
+    char buff9[10000];
+    char buff10[10000];
+    char buff11[10000];
+    char buff12[10000];
+    char buff13[10000];
+    char buff14[10000];
+    char buff15[10000];
+    char buff16[10000];
+    char buff17[10000];
+    char buff18[10000];
+    char buff19[10000];
+    char buff20[10000];
+    char buff21[10000];
+    char buff22[10000];
 
 
 
@@ -152,12 +152,12 @@ int  main() {
     /* Test8 */
     printf("TEST8\n");
 
-    sprintf(buff13,"%10.7f\n%+10.2f\n%15.f\n%+*.10f\n%*.16f\n%-10.*f\n%25.*f\n%25.f\n%+10.f\n%*.*f\n",
+    sprintf(buff13,"%-10.f%+-10.f%15.f%+*.10f%*.16f%-10.*f%25.*f%25.1f%+10.2f%*.*f",
             2546.4324, 3452.4325, 5678.43256, 25, 456789.243242, 10, 3456789123.43245, 2, 12345.6788,
             1, 34.4325432, 4325678.43242, 34567.2345432, 10, 2, 34567.43244);
     printf(buff13);
     printf("\n");
-    s21_sprintf(buff14, "%10.7f\n%+10.2f\n%15.f\n%+*.10f\n%*.16f\n%-10.*f\n%25.*f\n%25.f\n%+10.f\n%*.*f\n",
+    s21_sprintf(buff14, "%-10.f%+-10.f%15.f%+*.10f%*.16f%-10.*f%25.*f%25.1f%+10.2f%*.*f",
                 2546.4324, 3452.4325, 5678.43256, 25, 456789.243242, 10, 3456789123.43245, 2, 12345.6788,
                 1, 34.4325432, 4325678.43242, 34567.2345432, 10, 2, 34567.43244);
     printf(buff14);

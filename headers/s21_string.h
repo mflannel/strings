@@ -58,7 +58,7 @@ int             helper_isSpec               (char c, struct s_format *formatPara
 void            helper_writeInBuffer        (const char **format, char **str, struct s_format *formatParams, va_list vlist, char *buff);
 void            helper_writeChar            (const char **format, char **str, struct s_format *formatParams, char c);
 void            helper_writePercent         (const char **format, char **str);
-static void	    helper_isNegative           (int *n, int *neg);
+void	    helper_isNegative           (int *n, int *neg);
 void	        helper_bZero                (void *s, s21_size_t n);
 void	        *helper_memalloc            (s21_size_t size);
 char		    *helper_itoa                (int n);

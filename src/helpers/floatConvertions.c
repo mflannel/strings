@@ -12,7 +12,11 @@ char	*checkFloatMaxMinCases(long double f_case, char *str) //БОЛЬШЕ ОДН
         return (s21_strdup("-inf"));
     if (f_case == DBL_MAX || f_case == FLT_MAX)
         helper_floatMaxConversion(str);
-    return (helper_strNew(2));
+    else
+        free(str);
+    char *s;
+    s = helper_strNew(2);
+    return (s);
 }
 
 //Конвертирует флоат в строку
@@ -21,7 +25,7 @@ char	*helper_ftoa(long double f, struct s_format formatParams) //БОЛЬШЕ О
     int		i;
     double	fpNumber;
     int		size;
-    char	*str;
+    char	*str = "";
     int		isNegative;
 
     i = 0;
@@ -29,8 +33,9 @@ char	*helper_ftoa(long double f, struct s_format formatParams) //БОЛЬШЕ О
     isNegative = 0;
     fpNumber = f;
 
-    if (fpNumber == INFINITY || fpNumber == -INFINITY || fpNumber == DBL_MAX || fpNumber == FLT_MAX)
-        return (checkFloatMaxMinCases(fpNumber, str));
+    if (fpNumber == INFINITY || fpNumber == -INFINITY || fpNumber == DBL_MAX || fpNumber == FLT_MAX) {
+        checkFloatMaxMinCases(fpNumber, str);
+    }
     if (fpNumber < 0)
         isNegative = 1;
 
@@ -52,8 +57,8 @@ char	*helper_ftoa(long double f, struct s_format formatParams) //БОЛЬШЕ О
         return(str);
     }
     helper_convertDecimal(&str, &i, (float) fpNumber, size);
-    str = helper_round(str, formatParams.precision, formatParams.precisionSetByZero);
-    helper_cutStr(str, formatParams.precision, formatParams.precisionSetByZero);
+    str = helper_round(str, formatParams.precision, 1);
+    helper_cutStr(str, formatParams.precision, 0);
     return (str);
 }
 

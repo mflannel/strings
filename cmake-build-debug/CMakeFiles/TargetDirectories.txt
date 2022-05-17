@@ -1,3 +1,3 @@
-/Users/nick/Desktop/ALMOST/cmake-build-debug/CMakeFiles/s21_string.dir
-/Users/nick/Desktop/ALMOST/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/nick/Desktop/ALMOST/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/shirlpat/Desktop/STRINGS/cmake-build-debug/CMakeFiles/s21_string.dir
+/Users/shirlpat/Desktop/STRINGS/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/shirlpat/Desktop/STRINGS/cmake-build-debug/CMakeFiles/rebuild_cache.dir
