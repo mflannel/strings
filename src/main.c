@@ -52,7 +52,7 @@ int  main() {
     //printf(buff2);
     //printf("\n");
     s21_sprintf(buff3, "%-010.10d%10.3f%+10.4d", 252, 243, 256, 15);
-    printf(buff3);
+    //printf(buff3);
 
 //    /* Test3 */
 //    printf("TEST3\n");
