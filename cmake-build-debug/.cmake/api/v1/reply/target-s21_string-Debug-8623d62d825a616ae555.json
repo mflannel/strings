@@ -35,7 +35,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6"
+					"fragment" : "-g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1"
 				},
 				{
 					"fragment" : "-std=gnu11"
@@ -72,8 +72,7 @@
 				18,
 				19,
 				20,
-				21,
-				22
+				21
 			]
 		}
 	],
@@ -126,8 +125,7 @@
 				18,
 				19,
 				20,
-				21,
-				22
+				21
 			]
 		},
 		{
@@ -269,12 +267,6 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "src/helpers/buffWriting.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "src/test.c",
 			"sourceGroupIndex" : 0
 		}
 	],
