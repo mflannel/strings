@@ -97,8 +97,10 @@ int parser(const char **inputLine, struct s_format *inputLineParams) {
 }
 
 int s21_sprintf(char *str, const char *format, ...) {
-    va_list vlist;
+    struct s_format formatParams;
+    helper_initStruct(&formatParams);
 
+    va_list vlist;
     va_start(vlist, format);
 
     while (*format) {
@@ -107,7 +109,7 @@ int s21_sprintf(char *str, const char *format, ...) {
             str++;
             format++;
         } else {
-            struct s_format formatParams;
+            //struct s_format formatParams;
             helper_initStruct(&formatParams);
             format++;
             char buff[BUFFSIZE] = {'\0'};
