@@ -9,6 +9,7 @@ int  main() {
 //    char buff1[10000];
     //char buff2[BUFFSIZE];
     char buff3[BUFFSIZE];
+    char *str = "%-010.10d%10.3f%+10.4d";
 //    char buff4[10000];
 //    char buff5[10000];
 //    char buff6[10000];
@@ -51,7 +52,7 @@ int  main() {
     //sprintf(buff2, "%-010.10d%10.3f%+10.4d", 252, 243, 256, 15);
     //printf(buff2);
     //printf("\n");
-    s21_sprintf(buff3, "%-010.10d%10.3f%+10.4d", 252, 243, 256, 15);
+    s21_sprintf(buff3, str, 252, 243, 256, 15);
     //printf(buff3);
 
 //    /* Test3 */
