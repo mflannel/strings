@@ -7,8 +7,8 @@ int  main() {
 //
 //    char buff[10000];
 //    char buff1[10000];
-    char buff2[10000];
-    char buff3[10000];
+    char buff2[10000] = {'\0'};
+    char buff3[10000] = {'\0'};
 //    char buff4[10000];
 //    char buff5[10000];
 //    char buff6[10000];
