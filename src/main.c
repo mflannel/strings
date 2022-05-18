@@ -8,7 +8,7 @@ int  main() {
 //    char buff[10000];
 //    char buff1[10000];
     //char buff2[BUFFSIZE];
-    char buff3[BUFFSIZE];
+    char buff3[BUFFSIZE] = {'\0'};
     char *str = "%-010.10d%10.3f%+10.4d";
 //    char buff4[10000];
 //    char buff5[10000];
@@ -49,10 +49,14 @@ int  main() {
 
     /* Test2 */
     //printf("TEST2\n");
-    //sprintf(buff2, "%-010.10d%10.3f%+10.4d", 252, 243, 256, 15);
-    //printf(buff2);
+    int d = 1;
+    float f = 2.3;
+    int dd = 3;
+//    sprintf(buff2, "%-010.10d%10.3f%+10.4d", d, f, dd);
+//    printf(buff2);
     //printf("\n");
-    s21_sprintf(buff3, str, 252, 243, 256, 15);
+
+    s21_sprintf(buff3, str, d, f, dd);
     //printf(buff3);
 
 //    /* Test3 */
