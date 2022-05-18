@@ -8,7 +8,7 @@ int  main() {
 //    char buff[10000];
 //    char buff1[10000];
     //char buff2[BUFFSIZE];
-    char buff3[BUFFSIZE];
+    char buff3[25] = {0};
 //    char buff4[10000];
 //    char buff5[10000];
 //    char buff6[10000];
@@ -52,7 +52,7 @@ int  main() {
     //printf(buff2);
     //printf("\n");
     s21_sprintf(buff3, "%-010.10d%10.3f%+10.4d", 252, 243, 256, 15);
-    //printf(buff3);
+    printf(buff3);
 
 //    /* Test3 */
 //    printf("TEST3\n");
